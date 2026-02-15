@@ -6,7 +6,7 @@ from datetime import date
 preprocessor = joblib.load("preprocessing_pipeline.pkl")
 model = joblib.load("final_model.pkl")
 
-st.title("✈ Flight Price Prediction App")
+st.title("Flight Price Prediction App")
 
 airline = st.selectbox(
     "Airline", 
